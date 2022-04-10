@@ -859,6 +859,42 @@ body.landing.is-preload:after {
 }
 
 .row > .col-4 {
+  /* width: 33.33333%; */
+  width: 20%;
+}
+
+.my-profile {
+  width: 160px;
+  height: 160px;
+  border-radius: 10px;
+}
+
+.education {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#projects {
+  text-align: center;
+}
+
+/* col-20~22 added for about me page */
+.row > .col-20 {
+  width: 24%;
+}
+.row > .col-21 {
+  width: 62%;
+}
+.row > .col-22 {
+  width: 14%;
+}
+.row > .col-23 {
+  width: 33.33333%;
+}
+.row > .col-24 {
+  width: 33.33333%;
+}
+.row > .col-25 {
   width: 33.33333%;
 }
 
@@ -1603,7 +1639,7 @@ body.landing.is-preload:after {
   }
 
   .row > .col-6-medium {
-    width: 50%;
+    width: 30%;
   }
 
   .row > .off-6-medium {
