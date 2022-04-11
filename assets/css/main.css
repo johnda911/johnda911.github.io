@@ -2633,7 +2633,7 @@ input[type="radio"] + label:before {
 }
 
 .icon.major {
-  background: #272833;
+  /* background: #272833; */
   border-radius: 100%;
   cursor: default;
   display: inline-block;
@@ -3258,10 +3258,10 @@ input[type="button"]:disabled,
   -webkit-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
   transform: translate(0, 0);
-  -moz-transition: -moz-transform 1s ease, opacity 1s ease;
-  -webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
-  -ms-transition: -ms-transform 1s ease, opacity 1s ease;
-  transition: transform 1s ease, opacity 1s ease;
+  -moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
+  -webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
+  -ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
+  transition: transform 0.5s ease, opacity 0.5s ease;
   background: rgba(23, 24, 32, 0.95);
   border-style: solid;
   opacity: 1;
