@@ -2701,10 +2701,19 @@ input[type="radio"] + label:before {
   width: 100%;
 }
 
+.image.halffit {
+  display: block;
+  margin: 0 0 2em 0;
+  width: 50%;
+}
+
 .image.fit img {
   width: 100%;
 }
 
+.image.halffit img {
+  width: 50%;
+}
 /* List */
 
 ol {
