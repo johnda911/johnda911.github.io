@@ -3149,7 +3149,7 @@ input[type="button"]:disabled,
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
-  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.105);
   height: 100vh;
   overflow: hidden;
   position: relative;
@@ -3236,7 +3236,7 @@ input[type="button"]:disabled,
 }
 
 .spotlight:before {
-  background-image: url("images/overlay.png");
+  /* background-image: url("images/overlay.png"); */
   content: "";
   display: block;
   height: 100%;
